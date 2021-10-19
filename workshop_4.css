@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgb(164, 149, 255);
+}
+
+h1
+{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+}
+
+h2
+{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+}
+
+h3
+{
+    color: white;
+    font-size: 240%;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.imagen_1
+{
+    text-align: center;
+}
+
+.gpu_imagen
+{
+    box-shadow: 5px 5px 10px black;
+}
+
+.link
+{
+    font-size: 200%;
+    text-align: center;
+}
+
+.imagen_2
+{
+    text-align: center;
+}
+
+.ship_imagen
+{
+    width: 1000px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.column
+{
+
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.column.small_image
+{
+    box-shadow: 5px 5px 10px black;
+}
+
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+footer
+{
+    text-align: center;
+
+}
